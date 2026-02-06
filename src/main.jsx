@@ -7,7 +7,7 @@ import NewTab from './pages/newtab.jsx';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 createRoot(document.getElementById('root')).render(
 <StrictMode>
-  <BrowserRouter basename="/newsletterappv3">
+  <BrowserRouter basename='/newsletterappv3'>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/Articles" element={<NewTab />} />

@@ -117,7 +117,7 @@ const TrentGONewsletter = (props) => {
                   className="card-main-img"
                   onClick={()=>window.open('/Articles?type=po','_blank')}
                 />
-                <div className="new-card-hover-content" style={{ backgroundImage: `url(${po})`, backgroundSize: 'cover', backgroundPosition: 'center' }} onClick={()=>window.open('/newsletterapp_v3/Articles?type=po','_blank')}>
+                <div className="new-card-hover-content" style={{ backgroundImage: `url(${po})`, backgroundSize: 'cover', backgroundPosition: 'center' }} onClick={()=>window.open('/Articles?type=po','_blank')}>
                   {/* {props.marketIndex?.map((card, index) => (
                     <div key={index} className="hover-item">
                       <img
